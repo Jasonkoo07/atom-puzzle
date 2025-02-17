@@ -1,0 +1,8 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="256" height="256"
+     xmlns="http://www.w3.org/2000/svg">
+  <circle cx="128" cy="128" r="120" fill="none" stroke="#000000" stroke-width="5"/>
+<polygon 
+    points="128,13 228,185 28,186 " fill="none" stroke-width="5" stroke="#000000"/>
+</svg>
