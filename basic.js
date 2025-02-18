@@ -40,7 +40,7 @@ function 배열가리기(배열정보, 가리기정보) {
             result[set[i][j]] = 배열정보[set[i][j]]/gcdVar + String.fromCharCode(64+i);
         }
     }
-    for (var i = 0; i < 배열정보.length; i++) if (가리기정보[i] == -1) result[i] = '★';
+    for (var i = 0; i < 배열정보.length; i++) if (가리기정보[i] == -1) result[i] = '?';
     return result;
 }
 
