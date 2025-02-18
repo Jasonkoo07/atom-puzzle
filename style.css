@@ -20,6 +20,15 @@ body {
     justify-content: center;
 }
 
+button {
+    appearance: none;
+    border-radius: 0;
+    -moz-appearance: none;
+    -moz-border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
 body{
     -ms-overflow-style: none;
 }
@@ -128,17 +137,49 @@ body{
     flex-shrink: 0;
 }
 
-.세부정보상자 > .무지개원자, .세부정보상자 > .분자 {
-    zoom: 0.65;
+.세부정보상자 > .무지개원자 {
+    line-height: 3.9vw;
+    width: 3.9vw;
+    height: 3.9vw;
+    border-radius: 1.95vw;
+    font-size: 2.6vw;
+    border-width: 0.05vw;
+    background-size: 2.925vw;
 }
 
-#원자아이콘집합 > .무지개원자 {
-    zoom: 0.5;
+.세부정보상자 > .분자 {
+    width: 7.8vw;
+    height: 3.9vw;
+    border-radius: 2.4375vw;
+    font-size: 2.6vw;
+    border-width: 0.13vw;
+    background-size: 2.925vw;
 }
 
+#원자아이콘집합 > .무지개원자, .분자 > .무지개원자 {
+    line-height: 3vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1.5vw;
+    font-size: 2vw;
+    border-width: 0.1vw;
+    background-size: 2.25vw;
+}
 
-.분자 > .무지개원자 {
-    zoom: 0.50;
+.세부정보상자 > .분자 > .무지개원자 {
+    line-height: 1.95vw;
+    width: 1.95vw;
+    height: 1.95vw;
+    border-radius: 0.975vw;
+    font-size: 1.3vw;
+    border-width: 0.065vw;
+    background-size: 1.4625vw;
+}
+
+.세부정보상자 > .분자 > .작은분자텍스트 {
+    height: 3.9vw;
+    font-size: 0.975vw;
+    line-height: 5.85vw;
 }
 
 .분자 {
