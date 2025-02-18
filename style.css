@@ -28,6 +28,7 @@ button, input[type=button] {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
     color: black;
+    border-color: white;
     padding: 0;
 }
 
