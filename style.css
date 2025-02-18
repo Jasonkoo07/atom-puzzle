@@ -20,14 +20,14 @@ body {
     justify-content: center;
 }
 
-button {
+button, input[type=button] {
     appearance: none;
     border-radius: 0;
     -moz-appearance: none;
     -moz-border-radius: 0;
     -webkit-appearance: none;
     -webkit-border-radius: 0;
-    color: black;
+    color: pink;
 }
 
 body{
