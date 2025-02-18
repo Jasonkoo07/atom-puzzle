@@ -27,7 +27,8 @@ button, input[type=button] {
     -moz-border-radius: 0;
     -webkit-appearance: none;
     -webkit-border-radius: 0;
-    color: pink;
+    color: black;
+    padding: 0;
 }
 
 body{
@@ -386,7 +387,6 @@ body{
     font-size: 3vw;
     margin-left: 0.3vw;
     margin-right: 0.3vw;
-    color: red;
 }
 
 #오더 {
