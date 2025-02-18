@@ -220,7 +220,7 @@ class Mixture {
         for (var i = 0; i < 6; i++) result.push(this.이름배열[i]);
         if (this.원자숨기기 != null) {
             for (var i = 0; i < 6; i++) {
-                if (this.원자숨기기[i] == 'x') result[i] = '★';
+                if (this.원자숨기기[i] == 'x') result[i] = '?';
             }
         }
         return result;
